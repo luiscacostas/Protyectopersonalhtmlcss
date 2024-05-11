@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Personal</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">RutaVentura</h1>
+        <nav class="navegacion-principal">
+            <a href="index.html">Home</a>
+            <a href="biografia.html">Sobre Nosotros</a>
+            <a href="portfolio.html">Lugares</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+    <h2 class="titulo">Contactanos</h2>
+    <main class="centrar">
+        <form class="formulario">
+            <fieldset>
+                
+                <div>
+                    <label for="text">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Tu nombre" required>
+                </div>
+                <div>
+                    <label for="email">Correo Electronico</label>
+                    <input type="email" name="email" id="email" placeholder="correo@correo.es" required>
+                </div>
+                <div>
+                    <label for="tel">Numero de Telefono</label>
+                    <input type="tel" name="tel" id="tel" placeholder="+34" required>
+                </div>
+                <div>
+                    <label for="info">Desea recibir informacion nueva en su correo?</label>
+                    <input type="checkbox" name="info" id="info">
+                </div>
+                <div>
+                    <label for="mensaje">Escribe tu Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" placeholder="¿Que necesitas?" required minlength="10" maxlength="100"></textarea>
+                </div>
+                <input class="boton-formulario" type="submit" value="Enviar Formulario">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <nav class="navegacion-principal">
+            <a href="index.html">Home</a>
+            <a href="biografia.html">Sobre Nosotros</a>
+            <a href="portfolio.html">Lugares</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+        <p class="centrar"><b>Todos los derechos reservados, Luis Carlos</b></p>
+    </footer>
+</body>
+</html>
