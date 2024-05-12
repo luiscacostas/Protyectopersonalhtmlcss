@@ -1,15 +1,14 @@
 body{
     max-width: 1200px;
     margin: 0 auto;
-    background-image: url(../img/99736275-sellos-de-pasaporte-sin-costura-vector-fondo-patrón-de-sello-de-viaje-sellos-ficticios.jpg);
-}
+    background-image: url(../img/sellos\ html.jpg);}
 .titulo{
     font-weight: bold;
     font-size: 50px;
     margin: 10px 0;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(221, 221, 11);
-    -webkit-text-stroke: 1px rgb(169, 12, 111);
+    color: rgb(225, 224, 224);
+    -webkit-text-stroke: 2px rgb(54, 33, 129);
 }
 @media (max-width: 768px){
     .titulo{
@@ -29,6 +28,7 @@ body{
     background-color:darkgrey;
     padding: 20px;
     background:linear-gradient(to top, rgb(112, 110, 190), rgb(71, 31, 158));
+    border: 2px solid black;
 }
 @media (min-width: 768px) {
     .navegacion-principal{
@@ -66,8 +66,9 @@ a:hover{
     line-height: 1.5;
 }
 .subtitulo {
-    font-size: 25px;
-    -webkit-text-stroke: 1px rgb(215, 20, 88);
+    font-size: 30px;
+    -webkit-text-stroke: 2px rgb(46, 12, 123);
+    color: rgb(193, 32, 134);
 }
 .contenedor{
     background-color: rgb(225, 224, 224);
